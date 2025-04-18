@@ -1,0 +1,53 @@
+#Condtionals0.1
+
+var1=input("please enter a number")
+var2=input("Please enter another number, variable 2")
+#here are my two variables  this sucks i couldn't do the one before this and i been working for 4 hours
+
+try:
+	if (var1>var2):
+		print("var1 is bigger")
+	elif (var1 < var2):
+		print("Var1 is smaller")
+	else:
+		print("this is not a number")
+		
+	print("You entered ", var1, " and ", var2, ".")
+	print(sum(var1,var2))  
+
+	print(isinstance(var1,int))
+	print(isinstance(var2,int))
+
+	if (var1,int):
+ 		print("var 1 is an integer")
+   	elif 
+		print("Var1 is not an integer")
+
+  
+	if (var2,int):
+ 		print("var 2 is an integer")
+   	elif 
+		print("Var2 is not an integer")
+  
+#integer find with "if then" statement
+   
+ 	
+
+#is the number even or odd use modulus
+
+
+
+#i had to remove the bit that was your first try from the lecture. now it has the second bit you told us to type with the elif and the except
+
+
+
+
+#i agree the except thing is super cool and I should have asked about it because I wasted a lot of time #without it
+
+
+
+
+
+
+
+
