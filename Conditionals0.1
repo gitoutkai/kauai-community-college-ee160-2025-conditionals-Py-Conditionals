@@ -1,63 +1,99 @@
 #Condtionals0.1
 
 var1=input("please enter a number")
-var2=input("Please enter another number, variable 2")
-#here are my two variables  this sucks i couldn't do the one before this and i been working for 4 hours
-	
-if (type(var1)==type(1)):
+var2=input("Please enter another number")
+#I am using input to get the variables from the user
+try:
+	var1 = float(var1)
 	print("var1 is a number")
-else:
+except ValueError:
 	print("Var1 is not a number")
- 
-if (type(var2)==type(1)):
+
+try:
+	var2 = float(var2)
 	print("var2 is a number")
-else:
+except ValueError:
 	print("Var2 is not a number")
+
+#I am going to use the try and except to check if the variables are numbers
 #determines if var1 and var 2 are numbers 
  
-try:
-	if (type(var1)==type(1)):
+
+if (var1, int):
  		print("var 1 is an integer")
-	else: 
+else: 
 		print("Var1 is not an integer")
 
   
-	if (type(var2)==type(1)):
+if var2==((var2), int):
  		print("var 2 is an integer")
-	else: 
+else: 
 		print("Var2 is not an integer")
   
-#integer: find integers with an "if then" statement
+#integer: find integers with an "if else" statement
    
-Var(a)=print(float(var(1) % 2))
-If (var(a)==type(2))
+float1=float(var1)
+float2=float(var2)
+#I am converting the variables to floats so I can use them in the modulus function40
+#I am using the modulus function to find if the var1 and var2 are even or odd
+
+if float1 % 2==0:
 	print("Var 1 is even")
-else
+else:
 	print("Var 1 is odd")
 
 
-
-Var(b)=print(float(var(2) % 2)
-If (var(b)==type(2))
+if float2 % 2== 0:
 	print("Var 2 is even")
-else
+else:
 	print("Var 2 is odd")
- 
-#is the number even or odd use modulus
+	
+#I am using modulus to find of if the var1 and var 2 are even or odd: find even or odd numbers with an "if then" statement
+print("You selected ", var1, " as your first variable")
+print("You selected ", var2, " as your second variable")
+#I am printing the variables to see if the user knows they are correct
 
 
 
-#i had to remove the bit that was your first try from the lecture. now it has the second bit you told us to type with the elif and the except
+if (float1 < 10):
+	print("Var1 is less than 10")
+else:
+	print("Var1 is greater than 10 and I will not check if it is prime")
+
+if (var1 == 1 or var1 == 3):
+	print("Var1 is prime")
+elif (var1 == 5 or var1 == 7):
+	print("Var1 is prime")
+elif (var1 == 2):
+	print("Var1 is prime")
+elif (var1 == 4 or var1 == 6 or var1 == 8 or var1 == 9):
+	print("Var1 is not prime")
+else:
+	print("Var1 is not prime")
+#I am using the if then statement to check if var1 is prime or not
 
 
+#I am generally using the if then statement to check if var1 is less than 10 or if the number is prime
+
+	
+if (float2 < 10):
+	print("Var2 is less than 10")
+else:
+	print("Var2 is greater than 10 and I will not check if it is prime")
+#I am using the if then statement to check if var2 is less than 10
 
 
-#i agree the except thing is super cool and I should have asked about it because I wasted a lot of time #without it
+if (var2 == 1 or var2 == 3):
+	print("Var2 is prime")
+elif (var2 == 5 or var2 == 7):
+	print("Var2 is prime")
+elif (var2 == 2):
+	print("Var2 is prime")
+elif (var2 == 4 or var2 == 6 or var2 == 8 or var2 == 9):
+	print("Var2 is not prime")
+else:
+	print("Var2 is not prime")
+#I am using the if then statement to check if var2 is prime or not 
 
 
-
-
-
-
-
-
+#the if then statement shows if var1 and var2 are prime numbers
