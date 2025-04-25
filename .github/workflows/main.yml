@@ -18,17 +18,15 @@ try:
 	print(isinstance(var1,int))
 	print(isinstance(var2,int))
 
-	type(var1,int):
- 		print("var 1 is an integer")
-   	elif 
-		print("Var1 is not an integer")
+if type(var1) == int:
+	print("var 1 is an integer")
+else: 
+	print("Var1 is not an integer")
 
-  
-	type (var2,int):
- 		print("var 2 is an integer")
-   	elif 
-		print("Var2 is not an integer")
-  
+if type(var2) == int:
+	print("var 2 is an integer")
+else: 
+	print("Var2 is not an integer")
 #integer find with "if then" statement
    
  	
